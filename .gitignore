@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env.* 
+
+# Docker
+*.log
+*.pid
+*.sock
+*.sqlite3
+*.db
+*.bak
+docker-compose.override.yml
+docker-compose.override.*.yml
+
+# VSCode
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# IDE specific
+.idea/
