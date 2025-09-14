@@ -1,4 +1,4 @@
-from src.swot import generate_swot_chat
+from .src.swot import generate_swot_chat
 
 def test_generate_swot_chat():
     description = "Mobile app to help people find local farmers' markets."
